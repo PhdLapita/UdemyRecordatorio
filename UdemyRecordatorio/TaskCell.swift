@@ -1,0 +1,28 @@
+//
+//  TaskCell.swift
+//  UdemyRecordatorio
+//
+//  Created by Bear on 27/12/16.
+//  Copyright © 2016 BearCreekMining. All rights reserved.
+//
+
+import UIKit
+
+class TaskCell: UITableViewCell {
+
+    @IBOutlet weak var  imgTask : UIImageView!
+    @IBOutlet weak var  txtTask : UILabel!
+    
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+
+        // Configure the view for the selected state
+    }
+
+}

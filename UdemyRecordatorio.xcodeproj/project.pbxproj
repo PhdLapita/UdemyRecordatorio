@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09029D681E14022A00E1F5EE /* IconsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09029D671E14022A00E1F5EE /* IconsViewController.swift */; };
 		0913698D1E1182DE00EB6296 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0913698C1E1182DE00EB6296 /* AppDelegate.swift */; };
-		0913698F1E1182DE00EB6296 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0913698E1E1182DE00EB6296 /* ViewController.swift */; };
 		091369921E1182DE00EB6296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091369901E1182DE00EB6296 /* Main.storyboard */; };
 		091369951E1182DE00EB6296 /* UdemyRecordatorio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 091369931E1182DE00EB6296 /* UdemyRecordatorio.xcdatamodeld */; };
 		091369971E1182DE00EB6296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 091369961E1182DE00EB6296 /* Assets.xcassets */; };
 		0913699A1E1182DE00EB6296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091369981E1182DE00EB6296 /* LaunchScreen.storyboard */; };
 		091369A51E1182DE00EB6296 /* UdemyRecordatorioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091369A41E1182DE00EB6296 /* UdemyRecordatorioTests.swift */; };
 		091369B01E1182DE00EB6296 /* UdemyRecordatorioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091369AF1E1182DE00EB6296 /* UdemyRecordatorioUITests.swift */; };
+		091369C01E11866900EB6296 /* ListaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091369BF1E11866900EB6296 /* ListaViewController.swift */; };
+		0945E0EE1E12FF7200FEAC4C /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0945E0ED1E12FF7200FEAC4C /* TaskCell.swift */; };
+		0945E0F01E12FFCD00FEAC4C /* IconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0945E0EF1E12FFCD00FEAC4C /* IconCell.swift */; };
+		0945E0F41E13062100FEAC4C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0945E0F31E13062100FEAC4C /* HeaderView.swift */; };
+		0945E0F81E130CBE00FEAC4C /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0945E0F71E130CBE00FEAC4C /* TaskManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09029D671E14022A00E1F5EE /* IconsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconsViewController.swift; sourceTree = "<group>"; };
 		091369891E1182DE00EB6296 /* UdemyRecordatorio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UdemyRecordatorio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0913698C1E1182DE00EB6296 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0913698E1E1182DE00EB6296 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		091369911E1182DE00EB6296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		091369941E1182DE00EB6296 /* UdemyRecordatorio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UdemyRecordatorio.xcdatamodel; sourceTree = "<group>"; };
 		091369961E1182DE00EB6296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		091369AB1E1182DE00EB6296 /* UdemyRecordatorioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UdemyRecordatorioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		091369AF1E1182DE00EB6296 /* UdemyRecordatorioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdemyRecordatorioUITests.swift; sourceTree = "<group>"; };
 		091369B11E1182DE00EB6296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		091369BF1E11866900EB6296 /* ListaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaViewController.swift; sourceTree = "<group>"; };
+		0945E0ED1E12FF7200FEAC4C /* TaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		0945E0EF1E12FFCD00FEAC4C /* IconCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconCell.swift; sourceTree = "<group>"; };
+		0945E0F31E13062100FEAC4C /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		0945E0F71E130CBE00FEAC4C /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +110,17 @@
 			isa = PBXGroup;
 			children = (
 				0913698C1E1182DE00EB6296 /* AppDelegate.swift */,
-				0913698E1E1182DE00EB6296 /* ViewController.swift */,
 				091369901E1182DE00EB6296 /* Main.storyboard */,
 				091369961E1182DE00EB6296 /* Assets.xcassets */,
 				091369981E1182DE00EB6296 /* LaunchScreen.storyboard */,
 				0913699B1E1182DE00EB6296 /* Info.plist */,
 				091369931E1182DE00EB6296 /* UdemyRecordatorio.xcdatamodeld */,
+				091369BF1E11866900EB6296 /* ListaViewController.swift */,
+				0945E0ED1E12FF7200FEAC4C /* TaskCell.swift */,
+				0945E0EF1E12FFCD00FEAC4C /* IconCell.swift */,
+				0945E0F31E13062100FEAC4C /* HeaderView.swift */,
+				0945E0F71E130CBE00FEAC4C /* TaskManager.swift */,
+				09029D671E14022A00E1F5EE /* IconsViewController.swift */,
 			);
 			path = UdemyRecordatorio;
 			sourceTree = "<group>";
@@ -196,7 +211,7 @@
 				TargetAttributes = {
 					091369881E1182DE00EB6296 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = MSY85QY2GC;
+						DevelopmentTeam = PNVM2ESK45;
 						ProvisioningStyle = Automatic;
 					};
 					0913699F1E1182DE00EB6296 = {
@@ -265,9 +280,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0913698F1E1182DE00EB6296 /* ViewController.swift in Sources */,
+				0945E0EE1E12FF7200FEAC4C /* TaskCell.swift in Sources */,
+				0945E0F41E13062100FEAC4C /* HeaderView.swift in Sources */,
+				0945E0F81E130CBE00FEAC4C /* TaskManager.swift in Sources */,
+				0945E0F01E12FFCD00FEAC4C /* IconCell.swift in Sources */,
+				091369C01E11866900EB6296 /* ListaViewController.swift in Sources */,
 				0913698D1E1182DE00EB6296 /* AppDelegate.swift in Sources */,
 				091369951E1182DE00EB6296 /* UdemyRecordatorio.xcdatamodeld in Sources */,
+				09029D681E14022A00E1F5EE /* IconsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,10 +437,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MSY85QY2GC;
+				DEVELOPMENT_TEAM = PNVM2ESK45;
 				INFOPLIST_FILE = UdemyRecordatorio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bearcreekmining.UdemyRecordatorio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bearcreekmining.udemyrecordatorio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -430,10 +451,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MSY85QY2GC;
+				DEVELOPMENT_TEAM = PNVM2ESK45;
 				INFOPLIST_FILE = UdemyRecordatorio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bearcreekmining.UdemyRecordatorio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bearcreekmining.udemyrecordatorio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -516,6 +538,7 @@
 				091369B61E1182DE00EB6296 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		091369B71E1182DE00EB6296 /* Build configuration list for PBXNativeTarget "UdemyRecordatorioTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +547,7 @@
 				091369B91E1182DE00EB6296 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		091369BA1E1182DE00EB6296 /* Build configuration list for PBXNativeTarget "UdemyRecordatorioUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +556,7 @@
 				091369BC1E1182DE00EB6296 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
